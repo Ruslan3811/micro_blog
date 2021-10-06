@@ -1,5 +1,5 @@
 # micro_blog
-Creating micro-blog using Python/Dango, html/css.
+# Creating micro-blog using Python/Dango, html/css.
 
 In this project I coded a micro-blog, where created User can create new articles. 
 
@@ -15,6 +15,10 @@ Using html/css I could hide part description of article and define the fill colo
 
 STEPS OF USING OF THE PROJECT.
 1) ./micro_blog/Scripts/activate
-2) cd ./micro_blog/blog2 && python manage.py createsuperuser (Fill your info)
-3) python manage.py runserver
-4) add URL "http://127.0.0.1:8000/" in browser
+2) cd ./micro_blog/blog2
+3) python manage.py makemigrations
+4) python manage.py migrate
+5) python manage.py createsuperuser (Fill your info)
+6) python manage.py runserver
+7) add URL "http://127.0.0.1:8000/" in browser
+8) Create new articles.
