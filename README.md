@@ -9,7 +9,7 @@ On main page:
 
 On detail page:
 1) User can see all information about article.
-2) User is able to come back to main page clicking the link and choose another article.
+2) 2) User is able to come back to main page clicking the link and choose another article.
 
 Using html/css I could hide part description of article and define the fill color of the text.
 
