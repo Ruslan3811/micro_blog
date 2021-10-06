@@ -15,6 +15,6 @@ Using html/css I could hide part description of article and define the fill colo
 
 STEPS OF USING OF THE PROJECT.
 1) ./micro_blog/Scripts/activate
-2) cd blog2 && python manage.py createsuperuser (Fill your info)
+2) cd ./micro_blog/blog2 && python manage.py createsuperuser (Fill your info)
 3) python manage.py runserver
 4) add URL "http://127.0.0.1:8000/" in browser
